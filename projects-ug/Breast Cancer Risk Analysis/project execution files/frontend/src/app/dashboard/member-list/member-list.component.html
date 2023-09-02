@@ -1,0 +1,17 @@
+<div class="row">
+  <div class="col-xs-12">
+    <button class="btn btn-success" (click)="onNewMember()">New Member</button>  |
+    <button class="btn btn-warning" (click)="onSaveChanges()">Save</button>  |
+    <button class="btn btn-danger" (click)="onRollback()">Roll back</button>
+  </div>
+</div>
+<hr />
+<div class="row">
+  <div class="col-xs-12">
+    <app-one-member
+      *ngFor="let memberEl of members; let i = index"
+      [member]="memberEl"
+      [index]="i"
+    ></app-one-member>
+  </div>
+</div>

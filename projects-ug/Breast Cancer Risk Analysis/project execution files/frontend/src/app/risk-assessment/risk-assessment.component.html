@@ -1,0 +1,525 @@
+<div class="row">
+  <div class="col-xs-12">
+    <div class="offset-md-3">
+      <form (ngSubmit)="onSubmit(f)" #f="ngForm">
+        <div class="row">
+          <div class="col-sm-6 form-group">
+            <label for="firstName" class="form-label">First Name</label>
+            <input
+              id="firstName"
+              name="firstName"
+              type="text"
+              class="form-control form-control-sm"
+              [(ngModel)]="firstName"
+              required
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 form-group">
+            <label for="lastName" class="form-label">Last Name</label>
+            <input
+              id="lastName"
+              name="lastName"
+              type="text"
+              class="form-control form-control-sm"
+              [(ngModel)]="lastName"
+              required
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-3 form-group">
+            <label for="bloodGroup" class="form-label">Blood Group</label>
+            <input
+              id="bloodGroup"
+              name="bloodGroup"
+              type="text"
+              class="form-control form-control-sm"
+              ngModel
+              required
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-3 form-group">
+            <label for="age" class="form-label">Age</label>
+            <input
+              type="number"
+              class="form-control"
+              id="age"
+              name="age"
+              [(ngModel)]="age"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-3 form-group">
+            <label for="gender" class="form-label">Gender</label>
+            <select
+              name="gender"
+              class="form-control form-select"
+              [(ngModel)]="gender"
+              required
+            >
+              <option value="female">Female</option>
+              <option value="male">Male</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-3 form-group">
+            <label for="weight" class="form-label">Weight</label>
+            <input
+              type="number"
+              name="weight"
+              id="weight"
+              class="form-control"
+              required
+              [(ngModel)]="weight"
+              [pattern]="'^[1-9]+[0-9]*$'"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-3 form-group">
+            <label for="numberOfChild" class="form-label"
+              >Number of children</label
+            >
+            <input
+              type="number"
+              name="numberOfChild"
+              id="numberOfChild"
+              class="form-control"
+              required
+              [(ngModel)]="numberOfChild"
+              [pattern]="'^[0-9]+[0-9]*$'"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <label for="ageFirstChild"
+            >What was your age at the time of birthgiving of first child</label
+          >
+          <div class="col-sm-3">
+            <input
+              type="number"
+              id="ageFirstChild"
+              name="ageFirstChild"
+              class="form-control"
+              [(ngModel)]="ageFirstChild"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <label for="menstrualAge" class="form-label"
+              >What was your age when you first encountered menstruation</label
+            >
+            <div class="col-sm-3">
+              <input
+                type="number"
+                id="menstrualAge"
+                name="menstrualAge"
+                class="form-control form-control-sm"
+                required
+                [(ngModel)]="menstrualAge"
+                [pattern]="'^[0-9]+[0-9]*$'"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 form-group">
+            <label for="menopausalAge" class="form-label"
+              >Has your menopause been encountered?</label
+            >
+            <div class="row">
+              <div class="col-sm-2">
+                <input
+                  type="radio"
+                  id="menoYes"
+                  name="menopauseEncountered"
+                  value="yes"
+                  class="form-check-input"
+                  ngModel
+                  required
+                  (click)="menoAgeToggleYes()"
+                />
+                <label for="menoYes" class="form-check-label">Yes</label>
+              </div>
+              <div class="col-sm-2">
+                <input
+                  type="radio"
+                  id="menoNo"
+                  name="menopauseEncountered"
+                  value="no"
+                  class="form-check-input"
+                  ngModel
+                  (click)="menoAgeToggleNo()"
+                />
+                <label for="menoNo" class="form-check-label">No</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12" *ngIf="menopauseEncountered">
+            <label for="menopausalAge">age when menopause encountered</label>
+            <div class="col-sm-2">
+              <input
+                type="number"
+                id="menopausalAge"
+                name="menopausalAge"
+                class="form-control form-control-sm"
+                required
+                [(ngModel)]="menopausalAge"
+                [pattern]="'^[0-9]+[0-9]*$'"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <label for="smoke">Do you have smoking habit?</label>
+            <div class="row">
+              <div class="col-sm-2">
+                <input
+                  type="radio"
+                  id="smokeYes"
+                  name="smoke"
+                  class="form-check-input"
+                  value="yes"
+                  required
+                  ngModel
+                />
+                <label for="smokeYes" class="form-check-label">Yes</label>
+              </div>
+              <div class="col-sm-2">
+                <input
+                  type="radio"
+                  id="smokeNo"
+                  name="smoke"
+                  class="form-check-input"
+                  value="no"
+                  ngModel
+                />
+                <label for="smokeNo" class="form-check-label">No</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <label for="smoke"
+              >Do consume alcohol?<em>i.e. drinking habit</em></label
+            >
+            <div class="row">
+              <div class="col-sm-2">
+                <input
+                  type="radio"
+                  id="alcoholYes"
+                  name="alcohol"
+                  class="form-check-input"
+                  value="yes"
+                  required
+                  ngModel
+                />
+                <label for="alcoholYes" class="form-check-label">Yes</label>
+              </div>
+              <div class="col-sm-2">
+                <input
+                  type="radio"
+                  id="alcoholNo"
+                  name="alcohol"
+                  class="form-check-input"
+                  value="no"
+                  ngModel
+                />
+                <label for="alcoholNo" class="form-check-label">No</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <label for="abortion">Have you ever aborted a child?</label>
+            <div class="row">
+              <div class="col-sm-2">
+                <input
+                  type="radio"
+                  id="abortionYes"
+                  name="abortion"
+                  class="form-check-input"
+                  value="yes"
+                  ngModel
+                />
+                <label for="addictionYes" class="form-check-label">Yes</label>
+              </div>
+              <div class="col-sm-2">
+                <input
+                  type="radio"
+                  id="abortionNo"
+                  name="abortion"
+                  class="form-check-input"
+                  value="no"
+                  ngModel
+                />
+                <label for="addictionNo" class="form-check-label">No</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <label for="familyHistory"
+              >Does your family have/had anyone with history of breast cancer.
+            </label>
+          </div>
+          <div class="row">
+            <div class="col-sm-2">
+              <input
+                type="radio"
+                id="historyYes"
+                name="familyHistory"
+                class="form-check-input"
+                value="yes"
+                (click)="familyHistToggleYes()"
+                ngModel
+              />
+              <label for="historyYes" class="form-check-label">Yes</label>
+            </div>
+            <div class="col-sm-2">
+              <input
+                type="radio"
+                id="historyNo"
+                name="familyHistory"
+                class="form-check-input"
+                value="no"
+                (click)="familyHistToggleNo()"
+                required
+                ngModel
+              />
+              <label for="historyNo" class="form-check-label">No</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12" *ngIf="familyHistWho">
+              <label for="familyHistPerson"
+                >Who is/was infected with breast cancer?<em>
+                  you can prefer to not say</em
+                ></label
+              >
+              <div class="col-sm-3">
+                <input
+                  type="text"
+                  id="familyHistPerson"
+                  name="familyHistPerson"
+                  class="form-control form-control-sm"
+                  ngModel
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <label for="maritalStatus">What is your marital status?</label>
+            <div class="row">
+              <div class="col-sm-2">
+                <input
+                  type="radio"
+                  id="married"
+                  name="maritalStatus"
+                  class="form-check-input"
+                  value="married"
+                  (click)="maritalStatusToggleYes()"
+                  required
+                  ngModel
+                />
+                <label for="married" class="form-check-label">married</label>
+              </div>
+              <div class="col-sm-2">
+                <input
+                  type="radio"
+                  id="unmarried"
+                  name="maritalStatus"
+                  class="form-check-input"
+                  value="unmarried"
+                  (click)="maritalStatusToggleNo()"
+                  ngModel
+                />
+                <label for="unmarried" class="form-check-label"
+                  >unmarried</label
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row" *ngIf="maritalStatus">
+          <label for="maritalLength" class="form-label"
+            >How many years is your marital length?</label
+          >
+          <div class="col-sm-3 form-group">
+            <input
+              type="number"
+              name="maritalLength"
+              id="maritalLength"
+              class="form-control"
+              required
+              [pattern]="'^[1-9]+[0-9]*$'"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <label for="breastPain">Do you feel pain in breast?</label>
+            <div class="row">
+              <div class="col-sm-2">
+                <input
+                  type="radio"
+                  id="breastPainYes"
+                  name="breastPain"
+                  class="form-check-input"
+                  value="yes"
+                  required
+                  ngModel
+                />
+                <label for="breastPainYes" class="form-check-label">Yes</label>
+              </div>
+              <div class="col-sm-2">
+                <input
+                  type="radio"
+                  id="breastPainNo"
+                  name="breastPain"
+                  class="form-check-input"
+                  value="no"
+                  ngModel
+                />
+                <label for="breastPainNo" class="form-check-label">No</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <label for="bp">Do you have problem of blood pressure</label>
+            <div class="row">
+              <div class="col-sm-2">
+                <input
+                  type="radio"
+                  id="bpYes"
+                  name="bp"
+                  class="form-check-input"
+                  value="yes"
+                  required
+                  ngModel
+                />
+                <label for="bpYes" class="form-check-label">Yes</label>
+              </div>
+              <div class="col-sm-2">
+                <input
+                  type="radio"
+                  id="bpNo"
+                  name="bp"
+                  class="form-check-input"
+                  value="no"
+                  ngModel
+                />
+                <label for="comorboditiesNo" class="form-check-label">No</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <label for="contraception"
+              >Have you ever used contraceptive measures?</label
+            >
+            <div class="row">
+              <div class="col-sm-2">
+                <input
+                  type="radio"
+                  id="contraceptionYes"
+                  name="contraception"
+                  class="form-check-input"
+                  value="yes"
+                  required
+                  ngModel
+                />
+                <label for="contraceptionYes" class="form-check-label"
+                  >Yes</label
+                >
+              </div>
+              <div class="col-sm-2">
+                <input
+                  type="radio"
+                  id="contraceptionNo"
+                  name="contraception"
+                  class="form-check-input"
+                  value="no"
+                  ngModel
+                />
+                <label for="contraceptionNo" class="form-check-label">No</label>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-12">
+            <label for="pregnancyExperience"
+              >Have you ever experienced pregnancy?</label
+            >
+            <div class="row">
+              <div class="col-sm-2">
+                <input
+                  type="radio"
+                  id="pregnancyExperienceYes"
+                  name="pregnancyExperience"
+                  class="form-check-input"
+                  value="yes"
+                  required
+                  ngModel
+                />
+                <label for="pregnancyExperienceYes" class="form-check-label"
+                  >Yes</label
+                >
+              </div>
+              <div class="col-sm-2">
+                <input
+                  type="radio"
+                  id="pregnancyExperienceNo"
+                  name="pregnancyExperience"
+                  class="form-check-input"
+                  value="no"
+                  ngModel
+                />
+                <label for="pregnancyExperienceNo" class="form-check-label"
+                  >No</label
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="row">
+          <div class="col-xs-12">
+            <button class="btn btn-secondary" type="reset" style="margin: 5px">
+              Clear
+            </button>
+            <button
+              class="btn btn-primary"
+              type="submit"
+              style="margin: 5px"
+              [disabled]="!f.valid"
+            >
+              Submit
+            </button>
+          </div>
+        </div>
+      </form>
+      <!-- <div class="col-sm-5 form-group">Menopause Age: Menopause is the time that marks the end of a woman's menstrual cycles.</div> -->
+    </div>
+  </div>
+</div>
