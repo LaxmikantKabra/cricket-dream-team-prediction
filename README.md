@@ -7,7 +7,6 @@
 🔹 Data Visualization and Storytelling
 🔹 Data Mining and Preprocessing
 🔹 Predictive Modeling and Machine Learning
-🔹 Big Data Technologies (Hadoop, Spark)
 🔹 Statistical Analysis (R, Python, SQL)
 
 🌟 What drives me is the opportunity to make data-driven decisions that impact businesses positively. I'm keen to collaborate with forward-thinking teams and organizations where I can leverage my skills to solve complex problems and drive innovation.
