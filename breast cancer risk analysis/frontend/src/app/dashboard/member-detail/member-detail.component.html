@@ -1,0 +1,104 @@
+<div class="row">
+  <div class="col-xs-12">
+    <div class="btn-group">
+      <button
+        class="btn btn-secondary btn-sm dropdown-toggle"
+        type="button"
+        id="optionsMenu"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+      >
+        Options <span class=""></span>
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="optionsMenu">
+        <li>
+          <!-- <a class="dropdown-item" style="cursor: pointer" (click)="toRiskAssessment()"
+            >Proceed to Risk Assessment</a
+          > -->
+        </li>
+        <li>
+          <a
+            class="dropdown-item"
+            style="cursor: pointer"
+            (click)="onEditMember()"
+            >edit member</a
+          >
+        </li>
+        <li>
+          <a
+            class="dropdown-item"
+            style="cursor: pointer"
+            (click)="onDeleteMember()"
+            >delete member</a
+          >
+        </li>
+      </ul>
+      <a
+        class="btn btn-primary"
+        style="cursor: pointer;padding: 6px 80px;"
+        (click)="toRiskAssessment()"
+        >Check Risk</a
+      >
+    </div>
+  </div>
+</div>
+<br /><br />
+<div class="row">
+  <div class="col-xs-12">
+    <h3>{{ member.firstName }} {{ member.lastName }}</h3>
+  </div>
+</div>
+<br />
+<div class="row">
+  <div class="col-xs-12">
+    <!-- Date of Birth: {{ member.dob.getDate() }}/{{ member.dob.getMonth() }}/{{
+      member.dob.getFullYear()
+    }} -->
+    Date of Birth: {{ member.dob.toDateString() }}
+  </div>
+  <div class="row">
+    <div class="col-xs-12">Gender: {{ member.gender }}</div>
+    <div class="row">
+      <div class="col-xs-12">
+        Marital Status: {{ member.maritalStatus ? "married" : "unmarried" }}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        Number of Children:
+        {{ member.numberOfChild == 0 ? "No child" : member.numberOfChild }}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12" *ngIf="member.numberOfChild != 0">
+        Age when first child was born: {{ member.ageFirstChild }}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">Weight: {{ member.weight }}</div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12" *ngIf="member.gender == 'female'">
+        Menstrual Age: {{ member.menstrualAge }}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12" *ngIf="member.gender == 'female'">
+        Menopause Age:
+        {{
+          member.menopausalAge == 0 ? "does not apply" : member.menopausalAge
+        }}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        Family History:
+        {{
+          member.familyHistory
+            ? "have a family history"
+            : "do not have a family history"
+        }}
+      </div>
+    </div>
+  </div>
+</div>
