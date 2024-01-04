@@ -13,6 +13,8 @@
 
 💼 I am actively seeking full-time opportunities for Summer 2024 for Data Science, Data and Business Analyst, Data Engineer, Machine Learning Engineer and Software Development Engineer roles. If you're looking for someone who is analytical, adaptable, and passionate about data, I'd love to connect and explore potential career opportunities, or collaborations. Let's connect and discuss how I can contribute to your team's success.
 
+Here is my resume link: https://drive.google.com/file/d/1zTfZ0whzxEPxGaJ9xFjM72L9ArH9UpSk/
+
 🚀 Ready to embark on a data-driven journey together? Feel free to reach out via LinkedIn messaging or at laxmikantmkabra@gmail.com to discuss opportunities or just to chat about data science!
 
 #DataScience #MachineLearning #Analytics #DataDrivenDecisions #DataVisualization #JobSeeker #DataEnthusiast #DataMining #Statistics #DataVisualization #PredictiveAnalytics #Graph Analytics #NetworkAnalysis #AlgorithmAnalysis #Algorithms
