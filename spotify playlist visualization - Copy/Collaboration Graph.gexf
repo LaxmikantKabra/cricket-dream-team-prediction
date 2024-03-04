@@ -1,0 +1,1534 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2023-12-05">
+    <creator>NetworkX 3.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="4" title="Popular Collab" type="string" />
+      <attribute id="5" title="Popularity" type="double" />
+      <attribute id="6" title="Artist From" type="string" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="Genres" type="string" />
+      <attribute id="1" title="Popularity" type="long" />
+      <attribute id="2" title="Followers" type="long" />
+      <attribute id="3" title="Playlist" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Fleetwood Mac" label="Fleetwood Mac">
+        <attvalues>
+          <attvalue for="0" value="['album rock', 'classic rock', 'rock', 'soft rock', 'yacht rock']" />
+          <attvalue for="1" value="79" />
+          <attvalue for="2" value="10740384" />
+          <attvalue for="3" value="Playlist 1" />
+        </attvalues>
+      </node>
+      <node id="Taylor Swift" label="Taylor Swift">
+        <attvalues>
+          <attvalue for="0" value="['pop']" />
+          <attvalue for="1" value="100" />
+          <attvalue for="2" value="94400005" />
+          <attvalue for="3" value="Both" />
+        </attvalues>
+      </node>
+      <node id="fun." label="fun.">
+        <attvalues>
+          <attvalue for="0" value="['baroque pop', 'metropopolis']" />
+          <attvalue for="1" value="64" />
+          <attvalue for="2" value="3420049" />
+          <attvalue for="3" value="Playlist 1" />
+        </attvalues>
+      </node>
+      <node id="George Ezra" label="George Ezra">
+        <attvalues>
+          <attvalue for="0" value="['folk-pop', 'neo-singer-songwriter', 'talent show']" />
+          <attvalue for="1" value="71" />
+          <attvalue for="2" value="4146533" />
+          <attvalue for="3" value="Playlist 1" />
+        </attvalues>
+      </node>
+      <node id="Billy Joel" label="Billy Joel">
+        <attvalues>
+          <attvalue for="0" value="['album rock', 'classic rock', 'heartland rock', 'mellow gold', 'piano rock', 'rock', 'singer-songwriter', 'soft rock']" />
+          <attvalue for="1" value="74" />
+          <attvalue for="2" value="5579455" />
+          <attvalue for="3" value="Playlist 1" />
+        </attvalues>
+      </node>
+      <node id="John Mayer" label="John Mayer">
+        <attvalues>
+          <attvalue for="0" value="['neo mellow', 'singer-songwriter']" />
+          <attvalue for="1" value="75" />
+          <attvalue for="2" value="5976060" />
+          <attvalue for="3" value="Playlist 1" />
+        </attvalues>
+      </node>
+      <node id="Snow Patrol" label="Snow Patrol">
+        <attvalues>
+          <attvalue for="0" value="['irish rock', 'modern rock', 'neo mellow', 'permanent wave', 'pop rock']" />
+          <attvalue for="1" value="65" />
+          <attvalue for="2" value="2918167" />
+          <attvalue for="3" value="Playlist 1" />
+        </attvalues>
+      </node>
+      <node id="Led Zeppelin" label="Led Zeppelin">
+        <attvalues>
+          <attvalue for="0" value="['album rock', 'classic rock', 'hard rock', 'rock']" />
+          <attvalue for="1" value="74" />
+          <attvalue for="2" value="13941561" />
+          <attvalue for="3" value="Playlist 1" />
+        </attvalues>
+      </node>
+      <node id="Linkin Park" label="Linkin Park">
+        <attvalues>
+          <attvalue for="0" value="['alternative metal', 'nu metal', 'post-grunge', 'rap metal', 'rock']" />
+          <attvalue for="1" value="83" />
+          <attvalue for="2" value="24864684" />
+          <attvalue for="3" value="Playlist 1" />
+        </attvalues>
+      </node>
+      <node id="Oasis" label="Oasis">
+        <attvalues>
+          <attvalue for="0" value="['beatlesque', 'britpop', 'madchester', 'permanent wave', 'rock']" />
+          <attvalue for="1" value="74" />
+          <attvalue for="2" value="9425815" />
+          <attvalue for="3" value="Playlist 1" />
+        </attvalues>
+      </node>
+      <node id="U2" label="U2">
+        <attvalues>
+          <attvalue for="0" value="['irish rock', 'permanent wave', 'rock']" />
+          <attvalue for="1" value="75" />
+          <attvalue for="2" value="11759728" />
+          <attvalue for="3" value="Playlist 1" />
+        </attvalues>
+      </node>
+      <node id="The Killers" label="The Killers">
+        <attvalues>
+          <attvalue for="0" value="['alternative rock', 'dance rock', 'modern rock', 'permanent wave', 'rock']" />
+          <attvalue for="1" value="74" />
+          <attvalue for="2" value="7175285" />
+          <attvalue for="3" value="Playlist 1" />
+        </attvalues>
+      </node>
+      <node id="The Script" label="The Script">
+        <attvalues>
+          <attvalue for="0" value="['celtic rock', 'pop']" />
+          <attvalue for="1" value="71" />
+          <attvalue for="2" value="8099929" />
+          <attvalue for="3" value="Playlist 1" />
+        </attvalues>
+      </node>
+      <node id="Hozier" label="Hozier">
+        <attvalues>
+          <attvalue for="0" value="['irish singer-songwriter', 'modern rock', 'pov: indie']" />
+          <attvalue for="1" value="80" />
+          <attvalue for="2" value="6183294" />
+          <attvalue for="3" value="Playlist 1" />
+        </attvalues>
+      </node>
+      <node id="Panic! At The Disco" label="Panic! At The Disco">
+        <attvalues>
+          <attvalue for="0" value="['modern rock', 'pop']" />
+          <attvalue for="1" value="74" />
+          <attvalue for="2" value="12068563" />
+          <attvalue for="3" value="Both" />
+        </attvalues>
+      </node>
+      <node id="The Goo Goo Dolls" label="The Goo Goo Dolls">
+        <attvalues>
+          <attvalue for="0" value="['neo mellow', 'permanent wave', 'pop rock', 'post-grunge']" />
+          <attvalue for="1" value="69" />
+          <attvalue for="2" value="2666452" />
+          <attvalue for="3" value="Playlist 1" />
+        </attvalues>
+      </node>
+      <node id="Eagles" label="Eagles">
+        <attvalues>
+          <attvalue for="0" value="['album rock', 'classic rock', 'heartland rock', 'mellow gold', 'rock', 'soft rock', 'yacht rock']" />
+          <attvalue for="1" value="74" />
+          <attvalue for="2" value="10164292" />
+          <attvalue for="3" value="Playlist 1" />
+        </attvalues>
+      </node>
+      <node id="Ed Sheeran" label="Ed Sheeran">
+        <attvalues>
+          <attvalue for="0" value="['pop', 'singer-songwriter pop', 'uk pop']" />
+          <attvalue for="1" value="86" />
+          <attvalue for="2" value="115740668" />
+          <attvalue for="3" value="Both" />
+        </attvalues>
+      </node>
+      <node id="ABBA" label="ABBA">
+        <attvalues>
+          <attvalue for="0" value="['europop', 'swedish pop']" />
+          <attvalue for="1" value="77" />
+          <attvalue for="2" value="11298447" />
+          <attvalue for="3" value="Playlist 1" />
+        </attvalues>
+      </node>
+      <node id="Kings of Leon" label="Kings of Leon">
+        <attvalues>
+          <attvalue for="0" value="['modern rock', 'rock']" />
+          <attvalue for="1" value="72" />
+          <attvalue for="2" value="5307595" />
+          <attvalue for="3" value="Playlist 1" />
+        </attvalues>
+      </node>
+      <node id="Phoebe Bridgers" label="Phoebe Bridgers">
+        <attvalues>
+          <attvalue for="0" value="['indie pop', 'la indie', 'pov: indie']" />
+          <attvalue for="1" value="76" />
+          <attvalue for="2" value="2070120" />
+          <attvalue for="3" value="Playlist 1" />
+        </attvalues>
+      </node>
+      <node id="Tracy Chapman" label="Tracy Chapman">
+        <attvalues>
+          <attvalue for="0" value="['folk', 'lilith', 'singer-songwriter', &quot;women's music&quot;]" />
+          <attvalue for="1" value="68" />
+          <attvalue for="2" value="1569120" />
+          <attvalue for="3" value="Playlist 1" />
+        </attvalues>
+      </node>
+      <node id="OneRepublic" label="OneRepublic">
+        <attvalues>
+          <attvalue for="0" value="['piano rock', 'pop']" />
+          <attvalue for="1" value="80" />
+          <attvalue for="2" value="16556557" />
+          <attvalue for="3" value="Both" />
+        </attvalues>
+      </node>
+      <node id="The Beatles" label="The Beatles">
+        <attvalues>
+          <attvalue for="0" value="['british invasion', 'classic rock', 'merseybeat', 'psychedelic rock', 'rock']" />
+          <attvalue for="1" value="83" />
+          <attvalue for="2" value="26687008" />
+          <attvalue for="3" value="Playlist 1" />
+        </attvalues>
+      </node>
+      <node id="Young the Giant" label="Young the Giant">
+        <attvalues>
+          <attvalue for="0" value="['indietronica', 'modern alternative rock', 'modern rock', 'pov: indie', 'stomp and holler']" />
+          <attvalue for="1" value="65" />
+          <attvalue for="2" value="1541836" />
+          <attvalue for="3" value="Playlist 1" />
+        </attvalues>
+      </node>
+      <node id="Maroon 5" label="Maroon 5">
+        <attvalues>
+          <attvalue for="0" value="['pop']" />
+          <attvalue for="1" value="83" />
+          <attvalue for="2" value="41842854" />
+          <attvalue for="3" value="Both" />
+        </attvalues>
+      </node>
+      <node id="Queen" label="Queen">
+        <attvalues>
+          <attvalue for="0" value="['classic rock', 'glam rock', 'rock']" />
+          <attvalue for="1" value="82" />
+          <attvalue for="2" value="49021254" />
+          <attvalue for="3" value="Playlist 1" />
+        </attvalues>
+      </node>
+      <node id="Mumford &amp; Sons" label="Mumford &amp; Sons">
+        <attvalues>
+          <attvalue for="0" value="['modern folk rock', 'modern rock', 'neo mellow', 'stomp and holler', 'uk americana']" />
+          <attvalue for="1" value="70" />
+          <attvalue for="2" value="6527565" />
+          <attvalue for="3" value="Playlist 1" />
+        </attvalues>
+      </node>
+      <node id="Kodaline" label="Kodaline">
+        <attvalues>
+          <attvalue for="0" value="['irish pop', 'modern rock', 'neo mellow']" />
+          <attvalue for="1" value="66" />
+          <attvalue for="2" value="3012868" />
+          <attvalue for="3" value="Playlist 1" />
+        </attvalues>
+      </node>
+      <node id="James Blunt" label="James Blunt">
+        <attvalues>
+          <attvalue for="0" value="['neo mellow']" />
+          <attvalue for="1" value="69" />
+          <attvalue for="2" value="2900673" />
+          <attvalue for="3" value="Playlist 1" />
+        </attvalues>
+      </node>
+      <node id="Coldplay" label="Coldplay">
+        <attvalues>
+          <attvalue for="0" value="['permanent wave', 'pop']" />
+          <attvalue for="1" value="86" />
+          <attvalue for="2" value="48485132" />
+          <attvalue for="3" value="Both" />
+        </attvalues>
+      </node>
+      <node id="Eric Clapton" label="Eric Clapton">
+        <attvalues>
+          <attvalue for="0" value="['album rock', 'blues rock', 'classic rock', 'electric blues', 'mellow gold', 'rock', 'singer-songwriter', 'soft rock']" />
+          <attvalue for="1" value="68" />
+          <attvalue for="2" value="5627498" />
+          <attvalue for="3" value="Playlist 1" />
+        </attvalues>
+      </node>
+      <node id="The Cure" label="The Cure">
+        <attvalues>
+          <attvalue for="0" value="['new wave', 'permanent wave', 'rock', 'uk post-punk']" />
+          <attvalue for="1" value="73" />
+          <attvalue for="2" value="4971481" />
+          <attvalue for="3" value="Both" />
+        </attvalues>
+      </node>
+      <node id="Green Day" label="Green Day">
+        <attvalues>
+          <attvalue for="0" value="['modern rock', 'permanent wave', 'punk', 'rock']" />
+          <attvalue for="1" value="78" />
+          <attvalue for="2" value="14531949" />
+          <attvalue for="3" value="Playlist 1" />
+        </attvalues>
+      </node>
+      <node id="Gary Lightbody" label="Gary Lightbody">
+        <attvalues>
+          <attvalue for="0" value="['british singer-songwriter']" />
+          <attvalue for="1" value="52" />
+          <attvalue for="2" value="9339" />
+          <attvalue for="3" value="Playlist 1" />
+        </attvalues>
+      </node>
+      <node id="Sia" label="Sia">
+        <attvalues>
+          <attvalue for="0" value="['australian dance', 'australian pop', 'pop']" />
+          <attvalue for="1" value="83" />
+          <attvalue for="2" value="27350311" />
+          <attvalue for="3" value="Playlist 2" />
+        </attvalues>
+      </node>
+      <node id="Kygo" label="Kygo">
+        <attvalues>
+          <attvalue for="0" value="['edm', 'pop', 'pop dance', 'tropical house']" />
+          <attvalue for="1" value="75" />
+          <attvalue for="2" value="8444136" />
+          <attvalue for="3" value="Playlist 2" />
+        </attvalues>
+      </node>
+      <node id="BTS" label="BTS">
+        <attvalues>
+          <attvalue for="0" value="['k-pop', 'k-pop boy group', 'pop']" />
+          <attvalue for="1" value="85" />
+          <attvalue for="2" value="71377517" />
+          <attvalue for="3" value="Playlist 2" />
+        </attvalues>
+      </node>
+      <node id="Tainy" label="Tainy">
+        <attvalues>
+          <attvalue for="0" value="['pop reggaeton', 'reggaeton', 'trap latino', 'urbano latino']" />
+          <attvalue for="1" value="77" />
+          <attvalue for="2" value="1842674" />
+          <attvalue for="3" value="Playlist 2" />
+        </attvalues>
+      </node>
+      <node id="Zedd" label="Zedd">
+        <attvalues>
+          <attvalue for="0" value="['complextro', 'edm', 'german techno', 'pop', 'pop dance']" />
+          <attvalue for="1" value="72" />
+          <attvalue for="2" value="6004030" />
+          <attvalue for="3" value="Playlist 2" />
+        </attvalues>
+      </node>
+      <node id="Marshmello" label="Marshmello">
+        <attvalues>
+          <attvalue for="0" value="['brostep', 'edm', 'pop', 'progressive electro house']" />
+          <attvalue for="1" value="83" />
+          <attvalue for="2" value="35166776" />
+          <attvalue for="3" value="Playlist 2" />
+        </attvalues>
+      </node>
+      <node id="Charlie Puth" label="Charlie Puth">
+        <attvalues>
+          <attvalue for="0" value="['pop', 'viral pop']" />
+          <attvalue for="1" value="79" />
+          <attvalue for="2" value="21886337" />
+          <attvalue for="3" value="Playlist 2" />
+        </attvalues>
+      </node>
+      <node id="BANNERS" label="BANNERS">
+        <attvalues>
+          <attvalue for="0" value="['indie poptimism']" />
+          <attvalue for="1" value="63" />
+          <attvalue for="2" value="630316" />
+          <attvalue for="3" value="Playlist 2" />
+        </attvalues>
+      </node>
+      <node id="Avicii" label="Avicii">
+        <attvalues>
+          <attvalue for="0" value="['dance pop', 'edm', 'pop', 'pop dance']" />
+          <attvalue for="1" value="78" />
+          <attvalue for="2" value="23251515" />
+          <attvalue for="3" value="Playlist 2" />
+        </attvalues>
+      </node>
+      <node id="Shawn Mendes" label="Shawn Mendes">
+        <attvalues>
+          <attvalue for="0" value="['canadian pop', 'pop', 'viral pop']" />
+          <attvalue for="1" value="80" />
+          <attvalue for="2" value="42862332" />
+          <attvalue for="3" value="Playlist 2" />
+        </attvalues>
+      </node>
+      <node id="Glass Animals" label="Glass Animals">
+        <attvalues>
+          <attvalue for="0" value="['gauze pop', 'indietronica', 'modern rock', 'pov: indie', 'shiver pop']" />
+          <attvalue for="1" value="72" />
+          <attvalue for="2" value="3952755" />
+          <attvalue for="3" value="Playlist 2" />
+        </attvalues>
+      </node>
+      <node id="Flo Rida" label="Flo Rida">
+        <attvalues>
+          <attvalue for="0" value="['dance pop', 'miami hip hop', 'pop', 'pop rap']" />
+          <attvalue for="1" value="76" />
+          <attvalue for="2" value="8880645" />
+          <attvalue for="3" value="Playlist 2" />
+        </attvalues>
+      </node>
+      <node id="The Chainsmokers" label="The Chainsmokers">
+        <attvalues>
+          <attvalue for="0" value="['pop']" />
+          <attvalue for="1" value="78" />
+          <attvalue for="2" value="20516919" />
+          <attvalue for="3" value="Playlist 2" />
+        </attvalues>
+      </node>
+      <node id="WALK THE MOON" label="WALK THE MOON">
+        <attvalues>
+          <attvalue for="0" value="['dance rock', 'modern alternative rock', 'modern rock', 'neo mellow', 'pop rock']" />
+          <attvalue for="1" value="65" />
+          <attvalue for="2" value="2117781" />
+          <attvalue for="3" value="Playlist 2" />
+        </attvalues>
+      </node>
+      <node id="Clean Bandit" label="Clean Bandit">
+        <attvalues>
+          <attvalue for="0" value="['pop', 'uk dance', 'uk funky']" />
+          <attvalue for="1" value="71" />
+          <attvalue for="2" value="5361605" />
+          <attvalue for="3" value="Playlist 2" />
+        </attvalues>
+      </node>
+      <node id="Mark Ronson" label="Mark Ronson">
+        <attvalues>
+          <attvalue for="0" value="['pop soul']" />
+          <attvalue for="1" value="71" />
+          <attvalue for="2" value="1050499" />
+          <attvalue for="3" value="Playlist 2" />
+        </attvalues>
+      </node>
+      <node id="Megan Thee Stallion" label="Megan Thee Stallion">
+        <attvalues>
+          <attvalue for="0" value="['houston rap', 'pop', 'r&amp;b', 'rap', 'trap queen']" />
+          <attvalue for="1" value="75" />
+          <attvalue for="2" value="8215332" />
+          <attvalue for="3" value="Playlist 2" />
+        </attvalues>
+      </node>
+      <node id="Grey" label="Grey">
+        <attvalues>
+          <attvalue for="0" value="['pop edm']" />
+          <attvalue for="1" value="63" />
+          <attvalue for="2" value="73821" />
+          <attvalue for="3" value="Playlist 2" />
+        </attvalues>
+      </node>
+      <node id="DJ Snake" label="DJ Snake">
+        <attvalues>
+          <attvalue for="0" value="['dance pop', 'edm', 'electronic trap', 'pop', 'pop dance']" />
+          <attvalue for="1" value="76" />
+          <attvalue for="2" value="8779692" />
+          <attvalue for="3" value="Playlist 2" />
+        </attvalues>
+      </node>
+      <node id="Harry Styles" label="Harry Styles">
+        <attvalues>
+          <attvalue for="0" value="['pop']" />
+          <attvalue for="1" value="83" />
+          <attvalue for="2" value="30346144" />
+          <attvalue for="3" value="Playlist 2" />
+        </attvalues>
+      </node>
+      <node id="The Kid LAROI" label="The Kid LAROI">
+        <attvalues>
+          <attvalue for="0" value="['australian hip hop']" />
+          <attvalue for="1" value="81" />
+          <attvalue for="2" value="4927850" />
+          <attvalue for="3" value="Playlist 2" />
+        </attvalues>
+      </node>
+      <node id="Dua Lipa" label="Dua Lipa">
+        <attvalues>
+          <attvalue for="0" value="['dance pop', 'pop', 'uk pop']" />
+          <attvalue for="1" value="85" />
+          <attvalue for="2" value="42353541" />
+          <attvalue for="3" value="Playlist 2" />
+        </attvalues>
+      </node>
+      <node id="Justin Bieber" label="Justin Bieber">
+        <attvalues>
+          <attvalue for="0" value="['canadian pop', 'pop']" />
+          <attvalue for="1" value="87" />
+          <attvalue for="2" value="74884572" />
+          <attvalue for="3" value="Playlist 2" />
+        </attvalues>
+      </node>
+      <node id="Lauv" label="Lauv">
+        <attvalues>
+          <attvalue for="0" value="['pop']" />
+          <attvalue for="1" value="74" />
+          <attvalue for="2" value="6073149" />
+          <attvalue for="3" value="Playlist 2" />
+        </attvalues>
+      </node>
+      <node id="Miley Cyrus" label="Miley Cyrus">
+        <attvalues>
+          <attvalue for="0" value="['pop']" />
+          <attvalue for="1" value="82" />
+          <attvalue for="2" value="22791313" />
+          <attvalue for="3" value="Playlist 2" />
+        </attvalues>
+      </node>
+      <node id="David Guetta" label="David Guetta">
+        <attvalues>
+          <attvalue for="0" value="['big room', 'dance pop', 'edm', 'pop', 'pop dance']" />
+          <attvalue for="1" value="85" />
+          <attvalue for="2" value="26516492" />
+          <attvalue for="3" value="Playlist 2" />
+        </attvalues>
+      </node>
+      <node id="Wiz Khalifa" label="Wiz Khalifa">
+        <attvalues>
+          <attvalue for="0" value="['hip hop', 'pittsburgh rap', 'pop rap', 'rap', 'southern hip hop', 'trap']" />
+          <attvalue for="1" value="79" />
+          <attvalue for="2" value="11231420" />
+          <attvalue for="3" value="Playlist 2" />
+        </attvalues>
+      </node>
+      <node id="Selena Gomez" label="Selena Gomez">
+        <attvalues>
+          <attvalue for="0" value="['pop', 'post-teen pop']" />
+          <attvalue for="1" value="81" />
+          <attvalue for="2" value="46873877" />
+          <attvalue for="3" value="Playlist 2" />
+        </attvalues>
+      </node>
+      <node id="Ariana Grande" label="Ariana Grande">
+        <attvalues>
+          <attvalue for="0" value="['pop']" />
+          <attvalue for="1" value="87" />
+          <attvalue for="2" value="95301877" />
+          <attvalue for="3" value="Playlist 2" />
+        </attvalues>
+      </node>
+      <node id="Bipolar Sunshine" label="Bipolar Sunshine">
+        <attvalues>
+          <attvalue for="0" value="['gauze pop']" />
+          <attvalue for="1" value="57" />
+          <attvalue for="2" value="82830" />
+          <attvalue for="3" value="Playlist 2" />
+        </attvalues>
+      </node>
+      <node id="Backstreet Boys" label="Backstreet Boys">
+        <attvalues>
+          <attvalue for="0" value="['boy band', 'dance pop', 'pop']" />
+          <attvalue for="1" value="73" />
+          <attvalue for="2" value="5465448" />
+          <attvalue for="3" value="Playlist 2" />
+        </attvalues>
+      </node>
+      <node id="Niall Horan" label="Niall Horan">
+        <attvalues>
+          <attvalue for="0" value="['pop']" />
+          <attvalue for="1" value="74" />
+          <attvalue for="2" value="9882217" />
+          <attvalue for="3" value="Playlist 2" />
+        </attvalues>
+      </node>
+      <node id="Daft Punk" label="Daft Punk">
+        <attvalues>
+          <attvalue for="0" value="['electro', 'filter house', 'rock']" />
+          <attvalue for="1" value="78" />
+          <attvalue for="2" value="9734031" />
+          <attvalue for="3" value="Playlist 2" />
+        </attvalues>
+      </node>
+      <node id="Halsey" label="Halsey">
+        <attvalues>
+          <attvalue for="0" value="['electropop', 'etherpop', 'indie poptimism', 'pop']" />
+          <attvalue for="1" value="79" />
+          <attvalue for="2" value="21222927" />
+          <attvalue for="3" value="Playlist 2" />
+        </attvalues>
+      </node>
+      <node id="Bruno Mars" label="Bruno Mars">
+        <attvalues>
+          <attvalue for="0" value="['dance pop', 'pop']" />
+          <attvalue for="1" value="86" />
+          <attvalue for="2" value="52578040" />
+          <attvalue for="3" value="Playlist 2" />
+        </attvalues>
+      </node>
+      <node id="Maren Morris" label="Maren Morris">
+        <attvalues>
+          <attvalue for="0" value="['classic texas country', 'contemporary country']" />
+          <attvalue for="1" value="68" />
+          <attvalue for="2" value="777453" />
+          <attvalue for="3" value="Playlist 2" />
+        </attvalues>
+      </node>
+      <node id="Nicky Youre" label="Nicky Youre">
+        <attvalues>
+          <attvalue for="0" value="['singer-songwriter pop']" />
+          <attvalue for="1" value="65" />
+          <attvalue for="2" value="198768" />
+          <attvalue for="3" value="Playlist 2" />
+        </attvalues>
+      </node>
+      <node id="Martin Garrix" label="Martin Garrix">
+        <attvalues>
+          <attvalue for="0" value="['dutch edm', 'edm', 'pop', 'pop dance', 'progressive house']" />
+          <attvalue for="1" value="73" />
+          <attvalue for="2" value="15757948" />
+          <attvalue for="3" value="Playlist 2" />
+        </attvalues>
+      </node>
+      <node id="Bastille" label="Bastille">
+        <attvalues>
+          <attvalue for="0" value="['metropopolis', 'modern rock', 'pop']" />
+          <attvalue for="1" value="72" />
+          <attvalue for="2" value="5507348" />
+          <attvalue for="3" value="Playlist 2" />
+        </attvalues>
+      </node>
+      <node id="Camila Cabello" label="Camila Cabello">
+        <attvalues>
+          <attvalue for="0" value="['dance pop', 'pop']" />
+          <attvalue for="1" value="77" />
+          <attvalue for="2" value="32182508" />
+          <attvalue for="3" value="Playlist 2" />
+        </attvalues>
+      </node>
+      <node id="ZAYN" label="ZAYN">
+        <attvalues>
+          <attvalue for="0" value="['pop', 'uk pop']" />
+          <attvalue for="1" value="73" />
+          <attvalue for="2" value="22912575" />
+          <attvalue for="3" value="Playlist 2" />
+        </attvalues>
+      </node>
+      <node id="Julian Casablancas" label="Julian Casablancas">
+        <attvalues>
+          <attvalue for="0" value="['indie rock']" />
+          <attvalue for="1" value="58" />
+          <attvalue for="2" value="524756" />
+          <attvalue for="3" value="Playlist 2" />
+        </attvalues>
+      </node>
+      <node id="The Weeknd" label="The Weeknd">
+        <attvalues>
+          <attvalue for="0" value="['canadian contemporary r&amp;b', 'canadian pop', 'pop']" />
+          <attvalue for="1" value="92" />
+          <attvalue for="2" value="75238271" />
+          <attvalue for="3" value="Playlist 2" />
+        </attvalues>
+      </node>
+      <node id="Sheppard" label="Sheppard">
+        <attvalues>
+          <attvalue for="0" value="['australian indie', 'australian pop', 'folk-pop']" />
+          <attvalue for="1" value="58" />
+          <attvalue for="2" value="293836" />
+          <attvalue for="3" value="Playlist 2" />
+        </attvalues>
+      </node>
+      <node id="Anne-Marie" label="Anne-Marie">
+        <attvalues>
+          <attvalue for="0" value="['pop']" />
+          <attvalue for="1" value="76" />
+          <attvalue for="2" value="11467826" />
+          <attvalue for="3" value="Playlist 2" />
+        </attvalues>
+      </node>
+      <node id="Lady Gaga" label="Lady Gaga">
+        <attvalues>
+          <attvalue for="0" value="['art pop', 'dance pop', 'pop']" />
+          <attvalue for="1" value="82" />
+          <attvalue for="2" value="28632759" />
+          <attvalue for="3" value="Playlist 2" />
+        </attvalues>
+      </node>
+      <node id="Zara Larsson" label="Zara Larsson">
+        <attvalues>
+          <attvalue for="0" value="['pop', 'scandipop', 'swedish electropop', 'swedish pop']" />
+          <attvalue for="1" value="74" />
+          <attvalue for="2" value="10460210" />
+          <attvalue for="3" value="Playlist 2" />
+        </attvalues>
+      </node>
+      <node id="Lizzo" label="Lizzo">
+        <attvalues>
+          <attvalue for="0" value="['escape room', 'minnesota hip hop', 'pop', 'trap queen']" />
+          <attvalue for="1" value="70" />
+          <attvalue for="2" value="5681117" />
+          <attvalue for="3" value="Playlist 2" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Taylor Swift" target="Phoebe Bridgers" id="0">
+        <attvalues>
+          <attvalue for="4" value="Nothing New (feat. Phoebe Bridgers) (Taylor’s Version) (From The Vault)" />
+          <attvalue for="5" value="78.0" />
+          <attvalue for="6" value="Artists in Different Playlists" />
+        </attvalues>
+      </edge>
+      <edge source="Taylor Swift" target="Gary Lightbody" id="1">
+        <attvalues>
+          <attvalue for="4" value="The Last Time (feat. Gary Lightbody of Snow Patrol) (Taylor’s Version)" />
+          <attvalue for="5" value="73.0" />
+          <attvalue for="6" value="Artists in Different Playlists" />
+        </attvalues>
+      </edge>
+      <edge source="Taylor Swift" target="Panic! At The Disco" id="2">
+        <attvalues>
+          <attvalue for="4" value="ME! (feat. Brendon Urie of Panic! At The Disco)" />
+          <attvalue for="5" value="80.0" />
+          <attvalue for="6" value="Both Artists in Same Playlists" />
+        </attvalues>
+      </edge>
+      <edge source="Taylor Swift" target="Shawn Mendes" id="3">
+        <attvalues>
+          <attvalue for="4" value="Lover (Remix) [feat. Shawn Mendes]" />
+          <attvalue for="5" value="77.0" />
+          <attvalue for="6" value="Artists in Different Playlists" />
+        </attvalues>
+      </edge>
+      <edge source="Taylor Swift" target="Clean Bandit" id="4">
+        <attvalues>
+          <attvalue for="4" value="You Need To Calm Down - Clean Bandit Remix" />
+          <attvalue for="5" value="52.0" />
+          <attvalue for="6" value="Artists in Different Playlists" />
+        </attvalues>
+      </edge>
+      <edge source="Taylor Swift" target="Ed Sheeran" id="5">
+        <attvalues>
+          <attvalue for="4" value="The Joker And The Queen (feat. Taylor Swift)" />
+          <attvalue for="5" value="70.0" />
+          <attvalue for="6" value="Both Artists in Same Playlists" />
+        </attvalues>
+      </edge>
+      <edge source="Taylor Swift" target="Maren Morris" id="6">
+        <attvalues>
+          <attvalue for="4" value="You All Over Me (feat. Maren Morris) (Taylor’s Version) (From The Vault)" />
+          <attvalue for="5" value="66.0" />
+          <attvalue for="6" value="Artists in Different Playlists" />
+        </attvalues>
+      </edge>
+      <edge source="Taylor Swift" target="ZAYN" id="7">
+        <attvalues>
+          <attvalue for="4" value="I Don’t Wanna Live Forever (Fifty Shades Darker)" />
+          <attvalue for="5" value="84.0" />
+          <attvalue for="6" value="Artists in Different Playlists" />
+        </attvalues>
+      </edge>
+      <edge source="Billy Joel" target="John Mayer" id="8">
+        <attvalues>
+          <attvalue for="4" value="This Is The Time (feat. John Mayer) - Live at Shea Stadium, Queens, NY - July 2008" />
+          <attvalue for="5" value="31.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="John Mayer" target="Eric Clapton" id="9">
+        <attvalues>
+          <attvalue for="4" value="Magnolia (feat. John Mayer)" />
+          <attvalue for="5" value="53.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="U2" target="Green Day" id="10">
+        <attvalues>
+          <attvalue for="4" value="The Saints Are Coming" />
+          <attvalue for="5" value="44.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="U2" target="Kygo" id="11">
+        <attvalues>
+          <attvalue for="4" value="You’re The Best Thing About Me - U2 Vs. Kygo" />
+          <attvalue for="5" value="46.0" />
+          <attvalue for="6" value="Artists in Different Playlists" />
+        </attvalues>
+      </edge>
+      <edge source="The Killers" target="Phoebe Bridgers" id="12">
+        <attvalues>
+          <attvalue for="4" value="Runaway Horses (feat. Phoebe Bridgers) - Abridged" />
+          <attvalue for="5" value="47.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="The Killers" target="Clean Bandit" id="13">
+        <attvalues>
+          <attvalue for="4" value="Caution - Clean Bandit Remix" />
+          <attvalue for="5" value="34.0" />
+          <attvalue for="6" value="Artists in Different Playlists" />
+        </attvalues>
+      </edge>
+      <edge source="The Script" target="David Guetta" id="14">
+        <attvalues>
+          <attvalue for="4" value="Goodbye Friend (feat. The Script)" />
+          <attvalue for="5" value="22.0" />
+          <attvalue for="6" value="Artists in Different Playlists" />
+        </attvalues>
+      </edge>
+      <edge source="Hozier" target="Maren Morris" id="15">
+        <attvalues>
+          <attvalue for="4" value="The Bones - with Hozier" />
+          <attvalue for="5" value="67.0" />
+          <attvalue for="6" value="Artists in Different Playlists" />
+        </attvalues>
+      </edge>
+      <edge source="Ed Sheeran" target="Bruno Mars" id="16">
+        <attvalues>
+          <attvalue for="4" value="BLOW (with Chris Stapleton &amp; Bruno Mars)" />
+          <attvalue for="5" value="64.0" />
+          <attvalue for="6" value="Artists in Different Playlists" />
+        </attvalues>
+      </edge>
+      <edge source="Ed Sheeran" target="Camila Cabello" id="17">
+        <attvalues>
+          <attvalue for="4" value="Bam Bam (feat. Ed Sheeran)" />
+          <attvalue for="5" value="78.0" />
+          <attvalue for="6" value="Artists in Different Playlists" />
+        </attvalues>
+      </edge>
+      <edge source="Ed Sheeran" target="The Weeknd" id="18">
+        <attvalues>
+          <attvalue for="4" value="Dark Times" />
+          <attvalue for="5" value="64.0" />
+          <attvalue for="6" value="Artists in Different Playlists" />
+        </attvalues>
+      </edge>
+      <edge source="Kings of Leon" target="Mark Ronson" id="19">
+        <attvalues>
+          <attvalue for="4" value="Pistol of Fire - Mark Ronson Remix" />
+          <attvalue for="5" value="23.0" />
+          <attvalue for="6" value="Artists in Different Playlists" />
+        </attvalues>
+      </edge>
+      <edge source="Tracy Chapman" target="Eric Clapton" id="20">
+        <attvalues>
+          <attvalue for="4" value="Give Me One Reason - Live" />
+          <attvalue for="5" value="42.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="OneRepublic" target="Kygo" id="21">
+        <attvalues>
+          <attvalue for="4" value="Lose Somebody" />
+          <attvalue for="5" value="70.0" />
+          <attvalue for="6" value="Artists in Different Playlists" />
+        </attvalues>
+      </edge>
+      <edge source="Maroon 5" target="Wiz Khalifa" id="22">
+        <attvalues>
+          <attvalue for="4" value="Payphone" />
+          <attvalue for="5" value="73.0" />
+          <attvalue for="6" value="Artists in Different Playlists" />
+        </attvalues>
+      </edge>
+      <edge source="Maroon 5" target="Tainy" id="23">
+        <attvalues>
+          <attvalue for="4" value="Button (feat. Anuel AA &amp; Tainy)" />
+          <attvalue for="5" value="50.0" />
+          <attvalue for="6" value="Artists in Different Playlists" />
+        </attvalues>
+      </edge>
+      <edge source="Maroon 5" target="Megan Thee Stallion" id="24">
+        <attvalues>
+          <attvalue for="4" value="Beautiful Mistakes (feat. Megan Thee Stallion)" />
+          <attvalue for="5" value="80.0" />
+          <attvalue for="6" value="Artists in Different Playlists" />
+        </attvalues>
+      </edge>
+      <edge source="Kodaline" target="Kygo" id="25">
+        <attvalues>
+          <attvalue for="4" value="Raging (feat. Kodaline)" />
+          <attvalue for="5" value="64.0" />
+          <attvalue for="6" value="Artists in Different Playlists" />
+        </attvalues>
+      </edge>
+      <edge source="Coldplay" target="Selena Gomez" id="26">
+        <attvalues>
+          <attvalue for="4" value="Let Somebody Go" />
+          <attvalue for="5" value="75.0" />
+          <attvalue for="6" value="Artists in Different Playlists" />
+        </attvalues>
+      </edge>
+      <edge source="Coldplay" target="David Guetta" id="27">
+        <attvalues>
+          <attvalue for="4" value="My Universe - David Guetta Remix" />
+          <attvalue for="5" value="53.0" />
+          <attvalue for="6" value="Artists in Different Playlists" />
+        </attvalues>
+      </edge>
+      <edge source="Coldplay" target="The Chainsmokers" id="28">
+        <attvalues>
+          <attvalue for="4" value="Something Just Like This" />
+          <attvalue for="5" value="88.0" />
+          <attvalue for="6" value="Artists in Different Playlists" />
+        </attvalues>
+      </edge>
+      <edge source="Coldplay" target="BTS" id="29">
+        <attvalues>
+          <attvalue for="4" value="My Universe" />
+          <attvalue for="5" value="81.0" />
+          <attvalue for="6" value="Artists in Different Playlists" />
+        </attvalues>
+      </edge>
+      <edge source="Coldplay" target="Kygo" id="30">
+        <attvalues>
+          <attvalue for="4" value="Let Somebody Go - Kygo Remix" />
+          <attvalue for="5" value="52.0" />
+          <attvalue for="6" value="Artists in Different Playlists" />
+        </attvalues>
+      </edge>
+      <edge source="Sia" target="The Weeknd" id="31">
+        <attvalues>
+          <attvalue for="4" value="Elastic Heart - From &quot;The Hunger Games: Catching Fire&quot; Soundtrack" />
+          <attvalue for="5" value="59.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Sia" target="David Guetta" id="32">
+        <attvalues>
+          <attvalue for="4" value="Floating Through Space" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Sia" target="BTS" id="33">
+        <attvalues>
+          <attvalue for="4" value="ON (Feat. Sia)" />
+          <attvalue for="5" value="58.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Sia" target="Flo Rida" id="34">
+        <attvalues>
+          <attvalue for="4" value="Wild Ones (feat. Sia)" />
+          <attvalue for="5" value="82.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Sia" target="Miley Cyrus" id="35">
+        <attvalues>
+          <attvalue for="4" value="Muddy Feet (feat. Sia)" />
+          <attvalue for="5" value="63.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Sia" target="ZAYN" id="36">
+        <attvalues>
+          <attvalue for="4" value="Dusk Till Dawn (feat. Sia) - Radio Edit" />
+          <attvalue for="5" value="81.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Kygo" target="Avicii" id="37">
+        <attvalues>
+          <attvalue for="4" value="Forever Yours - Avicii Tribute" />
+          <attvalue for="5" value="62.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Kygo" target="Selena Gomez" id="38">
+        <attvalues>
+          <attvalue for="4" value="It Ain’t Me (with Selena Gomez)" />
+          <attvalue for="5" value="69.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Kygo" target="Zara Larsson" id="39">
+        <attvalues>
+          <attvalue for="4" value="Like It Is" />
+          <attvalue for="5" value="61.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Kygo" target="The Chainsmokers" id="40">
+        <attvalues>
+          <attvalue for="4" value="Family" />
+          <attvalue for="5" value="61.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Kygo" target="The Weeknd" id="41">
+        <attvalues>
+          <attvalue for="4" value="Often - Kygo Remix" />
+          <attvalue for="5" value="67.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="BTS" target="Halsey" id="42">
+        <attvalues>
+          <attvalue for="4" value="Boy With Luv (feat. Halsey)" />
+          <attvalue for="5" value="77.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="BTS" target="Megan Thee Stallion" id="43">
+        <attvalues>
+          <attvalue for="4" value="Butter - Megan Thee Stallion Remix" />
+          <attvalue for="5" value="63.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="BTS" target="Lauv" id="44">
+        <attvalues>
+          <attvalue for="4" value="Who" />
+          <attvalue for="5" value="74.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="BTS" target="Zara Larsson" id="45">
+        <attvalues>
+          <attvalue for="4" value="A Brand New Day (BTS World Original Soundtrack) (Pt. 2)" />
+          <attvalue for="5" value="59.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="BTS" target="Charlie Puth" id="46">
+        <attvalues>
+          <attvalue for="4" value="Left and Right (Feat. Jung Kook of BTS)" />
+          <attvalue for="5" value="82.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Tainy" target="Shawn Mendes" id="47">
+        <attvalues>
+          <attvalue for="4" value="Summer of Love (Shawn Mendes &amp; Tainy)" />
+          <attvalue for="5" value="75.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Tainy" target="DJ Snake" id="48">
+        <attvalues>
+          <attvalue for="4" value="Fuego (with Sean Paul &amp; Anitta, feat. Tainy)" />
+          <attvalue for="5" value="58.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Tainy" target="Camila Cabello" id="49">
+        <attvalues>
+          <attvalue for="4" value="Oh Na Na" />
+          <attvalue for="5" value="58.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Zedd" target="Selena Gomez" id="50">
+        <attvalues>
+          <attvalue for="4" value="I Want You To Know" />
+          <attvalue for="5" value="67.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Zedd" target="DJ Snake" id="51">
+        <attvalues>
+          <attvalue for="4" value="Let Me Love You - Zedd Remix" />
+          <attvalue for="5" value="40.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Zedd" target="Grey" id="52">
+        <attvalues>
+          <attvalue for="4" value="The Middle" />
+          <attvalue for="5" value="81.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Zedd" target="Maren Morris" id="53">
+        <attvalues>
+          <attvalue for="4" value="The Middle" />
+          <attvalue for="5" value="81.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Zedd" target="Shawn Mendes" id="54">
+        <attvalues>
+          <attvalue for="4" value="Lost In Japan - Remix" />
+          <attvalue for="5" value="61.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Zedd" target="Ariana Grande" id="55">
+        <attvalues>
+          <attvalue for="4" value="Break Free" />
+          <attvalue for="5" value="78.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Zedd" target="Martin Garrix" id="56">
+        <attvalues>
+          <attvalue for="4" value="Follow" />
+          <attvalue for="5" value="60.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Zedd" target="Lady Gaga" id="57">
+        <attvalues>
+          <attvalue for="4" value="Marry The Night - Zedd Remix" />
+          <attvalue for="5" value="30.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Marshmello" target="Anne-Marie" id="58">
+        <attvalues>
+          <attvalue for="4" value="Alarm - Marshmello Remix" />
+          <attvalue for="5" value="42.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Marshmello" target="Bastille" id="59">
+        <attvalues>
+          <attvalue for="4" value="Happier" />
+          <attvalue for="5" value="85.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Marshmello" target="Halsey" id="60">
+        <attvalues>
+          <attvalue for="4" value="Be Kind (with Halsey)" />
+          <attvalue for="5" value="75.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Marshmello" target="Megan Thee Stallion" id="61">
+        <attvalues>
+          <attvalue for="4" value="Bad Bitches (feat. Megan Thee Stallion)" />
+          <attvalue for="5" value="43.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Marshmello" target="Avicii" id="62">
+        <attvalues>
+          <attvalue for="4" value="Waiting For Love - Marshmello Remix" />
+          <attvalue for="5" value="38.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Marshmello" target="DJ Snake" id="63">
+        <attvalues>
+          <attvalue for="4" value="Let Me Love You - Marshmello Remix" />
+          <attvalue for="5" value="51.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Marshmello" target="The Kid LAROI" id="64">
+        <attvalues>
+          <attvalue for="4" value="FEEL SOMETHING (feat. Marshmello)" />
+          <attvalue for="5" value="64.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Marshmello" target="Selena Gomez" id="65">
+        <attvalues>
+          <attvalue for="4" value="Wolves" />
+          <attvalue for="5" value="80.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Charlie Puth" target="Selena Gomez" id="66">
+        <attvalues>
+          <attvalue for="4" value="We Don't Talk Anymore (feat. Selena Gomez)" />
+          <attvalue for="5" value="71.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Charlie Puth" target="David Guetta" id="67">
+        <attvalues>
+          <attvalue for="4" value="Attention - David Guetta Remix" />
+          <attvalue for="5" value="44.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Charlie Puth" target="Justin Bieber" id="68">
+        <attvalues>
+          <attvalue for="4" value="Stay - Symphony Orchestra Version" />
+          <attvalue for="5" value="6.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Charlie Puth" target="Wiz Khalifa" id="69">
+        <attvalues>
+          <attvalue for="4" value="See You Again (feat. Charlie Puth)" />
+          <attvalue for="5" value="85.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Avicii" target="David Guetta" id="70">
+        <attvalues>
+          <attvalue for="4" value="Sunshine" />
+          <attvalue for="5" value="41.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Avicii" target="Daft Punk" id="71">
+        <attvalues>
+          <attvalue for="4" value="Derezzed - Remixed by Avicii" />
+          <attvalue for="5" value="41.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Shawn Mendes" target="Justin Bieber" id="72">
+        <attvalues>
+          <attvalue for="4" value="Monster (Shawn Mendes &amp; Justin Bieber)" />
+          <attvalue for="5" value="71.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Shawn Mendes" target="Camila Cabello" id="73">
+        <attvalues>
+          <attvalue for="4" value="Señorita" />
+          <attvalue for="5" value="82.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Flo Rida" target="David Guetta" id="74">
+        <attvalues>
+          <attvalue for="4" value="Where Them Girls At (feat. Nicki Minaj &amp; Flo Rida)" />
+          <attvalue for="5" value="67.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Flo Rida" target="Lady Gaga" id="75">
+        <attvalues>
+          <attvalue for="4" value="Starstruck" />
+          <attvalue for="5" value="54.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="The Chainsmokers" target="Halsey" id="76">
+        <attvalues>
+          <attvalue for="4" value="Closer" />
+          <attvalue for="5" value="86.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Clean Bandit" target="Anne-Marie" id="77">
+        <attvalues>
+          <attvalue for="4" value="Rockabye (feat. Sean Paul &amp; Anne-Marie)" />
+          <attvalue for="5" value="76.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Clean Bandit" target="Zara Larsson" id="78">
+        <attvalues>
+          <attvalue for="4" value="Symphony (feat. Zara Larsson)" />
+          <attvalue for="5" value="80.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Clean Bandit" target="Lizzo" id="79">
+        <attvalues>
+          <attvalue for="4" value="New Eyes (feat. Lizzo)" />
+          <attvalue for="5" value="30.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Clean Bandit" target="Halsey" id="80">
+        <attvalues>
+          <attvalue for="4" value="Alone - Clean Bandit MFF Remix" />
+          <attvalue for="5" value="30.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Mark Ronson" target="Bruno Mars" id="81">
+        <attvalues>
+          <attvalue for="4" value="Uptown Funk (feat. Bruno Mars)" />
+          <attvalue for="5" value="85.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Mark Ronson" target="Camila Cabello" id="82">
+        <attvalues>
+          <attvalue for="4" value="Find U Again (feat. Camila Cabello)" />
+          <attvalue for="5" value="56.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Mark Ronson" target="Miley Cyrus" id="83">
+        <attvalues>
+          <attvalue for="4" value="Happy Xmas (War Is Over) (feat. Sean Ono Lennon)" />
+          <attvalue for="5" value="61.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Mark Ronson" target="Dua Lipa" id="84">
+        <attvalues>
+          <attvalue for="4" value="Physical (feat. Gwen Stefani) [Mark Ronson Remix] [Mixed]" />
+          <attvalue for="5" value="45.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Megan Thee Stallion" target="Dua Lipa" id="85">
+        <attvalues>
+          <attvalue for="4" value="Sweetest Pie" />
+          <attvalue for="5" value="73.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Megan Thee Stallion" target="David Guetta" id="86">
+        <attvalues>
+          <attvalue for="4" value="Sweetest Pie - David Guetta Dance Remix" />
+          <attvalue for="5" value="54.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Megan Thee Stallion" target="DJ Snake" id="87">
+        <attvalues>
+          <attvalue for="4" value="SG (with Ozuna, Megan Thee Stallion &amp; LISA of BLACKPINK)" />
+          <attvalue for="5" value="73.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Megan Thee Stallion" target="Wiz Khalifa" id="88">
+        <attvalues>
+          <attvalue for="4" value="Y U Mad (feat. Megan Thee Stallion, Ty Dolla $ign &amp; Mustard)" />
+          <attvalue for="5" value="43.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Megan Thee Stallion" target="Ariana Grande" id="89">
+        <attvalues>
+          <attvalue for="4" value="34+35 Remix (feat. Doja Cat, Megan Thee Stallion) - Remix" />
+          <attvalue for="5" value="68.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Grey" target="Selena Gomez" id="90">
+        <attvalues>
+          <attvalue for="4" value="Same Old Love - Grey Remix" />
+          <attvalue for="5" value="28.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Grey" target="Camila Cabello" id="91">
+        <attvalues>
+          <attvalue for="4" value="Crown (with Camila Cabello &amp; Grey)" />
+          <attvalue for="5" value="50.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="DJ Snake" target="Bipolar Sunshine" id="92">
+        <attvalues>
+          <attvalue for="4" value="Middle" />
+          <attvalue for="5" value="77.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="DJ Snake" target="Justin Bieber" id="93">
+        <attvalues>
+          <attvalue for="4" value="Let Me Love You" />
+          <attvalue for="5" value="86.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="DJ Snake" target="Selena Gomez" id="94">
+        <attvalues>
+          <attvalue for="4" value="Taki Taki (with Selena Gomez, Ozuna &amp; Cardi B)" />
+          <attvalue for="5" value="76.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="DJ Snake" target="Lauv" id="95">
+        <attvalues>
+          <attvalue for="4" value="A Different Way (with Lauv)" />
+          <attvalue for="5" value="67.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="The Kid LAROI" target="Justin Bieber" id="96">
+        <attvalues>
+          <attvalue for="4" value="Unstable (feat. The Kid LAROI)" />
+          <attvalue for="5" value="68.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="The Kid LAROI" target="Miley Cyrus" id="97">
+        <attvalues>
+          <attvalue for="4" value="WITHOUT YOU (with Miley Cyrus)" />
+          <attvalue for="5" value="71.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Dua Lipa" target="Miley Cyrus" id="98">
+        <attvalues>
+          <attvalue for="4" value="Prisoner (feat. Dua Lipa)" />
+          <attvalue for="5" value="79.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Dua Lipa" target="Martin Garrix" id="99">
+        <attvalues>
+          <attvalue for="4" value="Scared to Be Lonely" />
+          <attvalue for="5" value="80.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Justin Bieber" target="Halsey" id="100">
+        <attvalues>
+          <attvalue for="4" value="The Feeling" />
+          <attvalue for="5" value="62.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Justin Bieber" target="Miley Cyrus" id="101">
+        <attvalues>
+          <attvalue for="4" value="Overboard (Live)" />
+          <attvalue for="5" value="45.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Justin Bieber" target="David Guetta" id="102">
+        <attvalues>
+          <attvalue for="4" value="2U (feat. Justin Bieber)" />
+          <attvalue for="5" value="61.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Justin Bieber" target="Ariana Grande" id="103">
+        <attvalues>
+          <attvalue for="4" value="Stuck with U (with Justin Bieber)" />
+          <attvalue for="5" value="81.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Lauv" target="Anne-Marie" id="104">
+        <attvalues>
+          <attvalue for="4" value="fuck, i'm lonely" />
+          <attvalue for="5" value="68.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Miley Cyrus" target="Ariana Grande" id="105">
+        <attvalues>
+          <attvalue for="4" value="Don’t Call Me Angel (Charlie’s Angels) (with Miley Cyrus &amp; Lana Del Rey)" />
+          <attvalue for="5" value="71.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="David Guetta" target="Anne-Marie" id="106">
+        <attvalues>
+          <attvalue for="4" value="Baby Don't Hurt Me" />
+          <attvalue for="5" value="87.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="David Guetta" target="Martin Garrix" id="107">
+        <attvalues>
+          <attvalue for="4" value="So Far Away (feat. Jamie Scott &amp; Romy Dya)" />
+          <attvalue for="5" value="68.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="David Guetta" target="Zara Larsson" id="108">
+        <attvalues>
+          <attvalue for="4" value="On My Love" />
+          <attvalue for="5" value="82.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="David Guetta" target="Bruno Mars" id="109">
+        <attvalues>
+          <attvalue for="4" value="Versace on the Floor (Bruno Mars vs. David Guetta)" />
+          <attvalue for="5" value="59.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Wiz Khalifa" target="The Weeknd" id="110">
+        <attvalues>
+          <attvalue for="4" value="Remember You (feat. The Weeknd)" />
+          <attvalue for="5" value="58.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Ariana Grande" target="The Weeknd" id="111">
+        <attvalues>
+          <attvalue for="4" value="Die For You (with Ariana Grande) - Remix" />
+          <attvalue for="5" value="82.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Ariana Grande" target="Lady Gaga" id="112">
+        <attvalues>
+          <attvalue for="4" value="Rain On Me (with Ariana Grande)" />
+          <attvalue for="5" value="74.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Ariana Grande" target="Lizzo" id="113">
+        <attvalues>
+          <attvalue for="4" value="Good as Hell (feat. Ariana Grande)" />
+          <attvalue for="5" value="62.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Niall Horan" target="Anne-Marie" id="114">
+        <attvalues>
+          <attvalue for="4" value="Our Song" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Niall Horan" target="Maren Morris" id="115">
+        <attvalues>
+          <attvalue for="4" value="Seeing Blind" />
+          <attvalue for="5" value="64.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Daft Punk" target="Julian Casablancas" id="116">
+        <attvalues>
+          <attvalue for="4" value="Instant Crush (feat. Julian Casablancas)" />
+          <attvalue for="5" value="77.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Daft Punk" target="The Weeknd" id="117">
+        <attvalues>
+          <attvalue for="4" value="Starboy" />
+          <attvalue for="5" value="93.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Martin Garrix" target="The Weeknd" id="118">
+        <attvalues>
+          <attvalue for="4" value="Can't Feel My Face - Martin Garrix Remix" />
+          <attvalue for="5" value="54.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="Bastille" target="Lizzo" id="119">
+        <attvalues>
+          <attvalue for="4" value="Torn Apart, Pt II (Bastille Vs. GRADES Vs. Lizzo)" />
+          <attvalue for="5" value="40.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+      <edge source="The Weeknd" target="Lady Gaga" id="120">
+        <attvalues>
+          <attvalue for="4" value="Marry The Night - The Weeknd &amp; Illangelo Remix" />
+          <attvalue for="5" value="28.0" />
+          <attvalue for="6" value="Artists from Same Playlist" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
