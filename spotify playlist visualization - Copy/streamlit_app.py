@@ -7,6 +7,8 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.cm import viridis
+import streamlit as st
+
 
 df = pd.read_csv("Combined.csv")
 duration_mins_secs = [
@@ -1175,42 +1177,34 @@ main_page_layout = dbc.Container(
 )
 
 
-# Callback to update the content based on the selected tab
-@app.callback(Output("page-content", "children"), [Input("tabs", "value")])
-def display_tab(tab_value):
-    if tab_value == "/viz-1":
-        return html.Div([html.H2("Visualization 1"), page1_layout])
-    elif tab_value == "/viz-2":
-        return html.Div([html.H2("Visualization 2"), page2_layout])
-    elif tab_value == "/viz-3":
-        return html.Div([html.H2("Visualization 3"), page3_layout])
-    elif tab_value == "/viz-4":
-        return html.Div([html.H2("Visualization 4"), page4_layout])
-    elif tab_value == "/viz-5":
-        return html.Div([html.H2("Visualization 5"), page5_layout])
-    elif tab_value == "/viz-6":
-        return html.Div([html.H2("Visualization 6"), page6_layout])
-    elif tab_value == "/viz-7":
-        return html.Div([html.H2("Visualization 7"), page7_layout])
-    elif tab_value == "/viz-8":
-        return html.Div([html.H2("Visualization 8"), page8_layout])
-    elif tab_value == "/viz-9":
-        return html.Div([html.H2("Visualization 9"), page9_layout])
-    elif tab_value == "/viz-10":
-        return html.Div([html.H2("Visualization 10"), page10_layout])
-    else:
-        return welcome_page
+def main():
+    st.title("Visual Tunes")
+    tabs = ["Visualization 1", "Visualization 2", "Visualization 3", "Visualization 4",
+            "Visualization 5", "Visualization 6", "Visualization 7", "Visualization 8",
+            "Visualization 9", "Visualization 10"]
 
+    tab_value = st.sidebar.radio("Select Visualization", tabs)
 
-# Define the overall layout
-app.layout = dbc.Container(
-    [
-        dcc.Location(id="url", refresh=False),
-        main_page_layout,
-        html.Div(id="page-content"),
-    ],
-    fluid=True,
-)
+    if tab_value == "Visualization 1":
+        page1_layout()
+    elif tab_value == "Visualization 2":
+        page2_layout()
+    elif tab_value == "Visualization 3":
+        page3_layout()
+    elif tab_value == "Visualization 4":
+        page4_layout()
+    elif tab_value == "Visualization 5":
+        page5_layout()
+    elif tab_value == "Visualization 6":
+        page6_layout()
+    elif tab_value == "Visualization 7":
+        page7_layout()
+    elif tab_value == "Visualization 8":
+        page8_layout()
+    elif tab_value == "Visualization 9":
+        page9_layout()
+    elif tab_value == "Visualization 10":
+        page10_layout()
 
 if __name__ == "__main__":
-    app.run_server(port=8080, debug=True)
+    main()
