@@ -1069,20 +1069,6 @@ viz_titles = {
     10: "New Playlist - CDF Plot",
 }
 
-# dropdown1 = dbc.Nav(
-#     [
-#         dbc.DropdownMenu(
-#             label="More Visualizations",
-#             children=[
-#                 dbc.DropdownMenuItem(
-#                     f"Visualization {i} - {viz_titles[i]}", href=f"/viz-{i}"
-#                 )
-#                 for i in range(1, 10)
-#             ],
-#         )
-#     ],
-# )
-
 
 # Define the common top header
 common_top_header = dbc.NavbarSimple(
