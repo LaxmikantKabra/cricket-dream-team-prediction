@@ -23,6 +23,8 @@ The data architecture comprised two main models:
 - A **Performance-Based Scoring Metric Model** using linear regression to predict player performance.
 - A **K-means Clustering Model** for in-game player position optimization based on past performance.
 
+![Model Architecture](https://github.com/LaxmikantKabra/cricket-dream-team-prediction/blob/dea16f4a5c37e95d76121458313d594e13ee4f46/img1.jpg)
+
 The pipeline included data collection, preprocessing, feature engineering (such as extracting time-based values), and model training, all executed on historical IPL data.
 
 ## Tools Used
