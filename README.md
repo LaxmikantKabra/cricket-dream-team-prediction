@@ -1,6 +1,51 @@
+# Matchup Mayhem: Data Mining for Fantasy Cricket
 
+## Overview
+The Indian Premier League (IPL) is a renowned Twenty20 cricket league in India, known for its fast-paced, high-stakes matches. Fantasy cricket, a popular pastime among IPL enthusiasts, allows fans to engage deeply with the game by selecting their fantasy teams. The challenge lies in choosing the best 11 players to maximize fantasy points based on player performance in each match. This project leverages data-driven techniques to build a system that optimizes fantasy cricket team selection by analyzing player stats, pitch conditions, and other game-related factors.
 
-The Indian Premier League (IPL) has become a cricket sensation, captivating audiences worldwide since its inception in 2008. This project addresses the rising popularity of fantasy cricket, aiming to help enthusiasts make informed decisions in team selection. Leveraging data mining techniques, the project introduces two innovative methods:
-Performance-Based Scoring Metric Model: Using linear regression, a custom dataset was curated with ball-by-ball information, considering various player metrics. The model, trained on the past five years' data, yielded an 80% accuracy in predicting player performances. The inclusion of a "time value" feature, dynamic weights, and careful scaling contributed to the model's success.
-In-Game Position-Based Optimal Cluster Prediction Using K-means Clustering: This method focused on clustering players based on their positions (batsmen, bowlers) and introducing a weighted score for a nuanced evaluation. The K-means clustering model, with three clusters for each batting position and four for bowlers, resulted in errors ranging from 27% to 30%.
-The evaluation against real-time cricket platforms ensured the methodology's practical applicability. The project provides fantasy cricket enthusiasts with a data-driven approach to team selection, offering transparency and trust in the selection process. While achieving promising results, there's room for further optimization in model weights and exploration of different training periods for enhanced accuracy.
+## Dataset
+We used historical data from IPL matches, including ball-by-ball performances and player career statistics, spanning from 2008 to 2023. The dataset was curated from Kaggle and included player metrics such as:
+- Runs scored
+- Balls faced
+- Strike rate
+- Wickets taken
+- Economy rate
+- Historical match performance
+
+The dataset was split into two main segments:
+1. **Player performance for each ball in a match (batsmen and bowlers)**
+2. **Player career statistics across seasons**
+
+## Data Architecture
+The data architecture comprised two main models:
+- A **Performance-Based Scoring Metric Model** using linear regression to predict player performance.
+- A **K-means Clustering Model** for in-game player position optimization based on past performance.
+
+The pipeline included data collection, preprocessing, feature engineering (such as extracting time-based values), and model training, all executed on historical IPL data.
+
+## Tools Used
+- **Python**: For data manipulation, model building, and analysis.
+- **Pandas & NumPy**: Data cleaning and manipulation.
+- **Scikit-learn**: Machine learning algorithms for linear regression and K-means clustering.
+- **Matplotlib & Seaborn**: Data visualization.
+- **Kaggle**: Data source for IPL match and player statistics.
+
+## Methods
+
+### Algorithms
+1. **Performance-Based Scoring Metric Model**:
+   - Built using linear regression.
+   - Features included runs, balls faced, wickets taken, economy rate, etc.
+   - A custom scoring metric was developed, assigning weights to each feature based on player roles (batsman, bowler, etc.).
+   - We used MinMaxScaler to normalize the features, ensuring no feature dominated the model due to its scale.
+
+2. **K-means Clustering**:
+   - An unsupervised learning algorithm was used to cluster players based on their in-game roles (batsmen, bowlers, etc.).
+   - Features included runs, batting average, wickets, economy, and strike rate.
+   - The number of clusters was determined experimentally, yielding 3 clusters for batsmen and 4 clusters for bowlers.
+
+### Result
+The linear regression model predicted the top players for a match with an average accuracy of 80%, while the K-means clustering approach had an error margin ranging from 27% to 36%, depending on the match.
+
+## Outcome
+The project successfully demonstrated the feasibility of using data-driven methods to predict optimal fantasy cricket team selections. The algorithms are adaptable and provide IPL fantasy players with informed recommendations based on past player performances, ensuring a more competitive and engaging fantasy cricket experience.
