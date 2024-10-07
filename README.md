@@ -49,8 +49,8 @@ The pipeline included data collection, preprocessing, feature engineering (such 
    - The number of clusters was determined experimentally, yielding 3 clusters for batsmen and 4 clusters for bowlers.
   
 <p align="center">
-  <img src="https://github.com/LaxmikantKabra/cricket-dream-team-prediction/blob/40dba413fb8397eadd6acd1ed1bd1e08e384a00a/batsmen_cluster.jpg" alt="Batsmen cluster" height="400"/>
-  <img src="https://github.com/LaxmikantKabra/cricket-dream-team-prediction/blob/40dba413fb8397eadd6acd1ed1bd1e08e384a00a/bowler_cluster.jpg" alt="Bowler cluster" height="400"/>
+  <img src="https://github.com/LaxmikantKabra/cricket-dream-team-prediction/blob/40dba413fb8397eadd6acd1ed1bd1e08e384a00a/batsmen_cluster.jpg" alt="Batsmen cluster" width="400"/>
+  <img src="https://github.com/LaxmikantKabra/cricket-dream-team-prediction/blob/40dba413fb8397eadd6acd1ed1bd1e08e384a00a/bowler_cluster.jpg" alt="Bowler cluster" width="400"/>
 </p>
 
 
