@@ -3,6 +3,8 @@
 ## Overview
 The Indian Premier League (IPL) is a renowned Twenty20 cricket league in India, known for its fast-paced, high-stakes matches. Fantasy cricket, a popular pastime among IPL enthusiasts, allows fans to engage deeply with the game by selecting their fantasy teams. The challenge lies in choosing the best 11 players to maximize fantasy points based on player performance in each match. This project leverages data-driven techniques to build a system that optimizes fantasy cricket team selection by analyzing player stats, pitch conditions, and other game-related factors.
 
+<h2><a href="https://youtu.be/1J1K0DyX1gI?si=E4q7pmGNNoxuihkx" target="_blank">Video Presentation Link</a></h2>
+
 ## Dataset
 We used historical data from IPL matches, including ball-by-ball performances and player career statistics, spanning from 2008 to 2023. The dataset was curated from Kaggle and included player metrics such as:
 - Runs scored
