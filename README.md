@@ -47,6 +47,12 @@ The pipeline included data collection, preprocessing, feature engineering (such 
    - An unsupervised learning algorithm was used to cluster players based on their in-game roles (batsmen, bowlers, etc.).
    - Features included runs, batting average, wickets, economy, and strike rate.
    - The number of clusters was determined experimentally, yielding 3 clusters for batsmen and 4 clusters for bowlers.
+  
+<p align="center">
+  <img src="https://github.com/LaxmikantKabra/cricket-dream-team-prediction/blob/40dba413fb8397eadd6acd1ed1bd1e08e384a00a/batsmen_cluster.jpg" alt="Batsmen cluster" width="400"/>
+  <img src="https://github.com/LaxmikantKabra/cricket-dream-team-prediction/blob/40dba413fb8397eadd6acd1ed1bd1e08e384a00a/bowler_cluster.jpg" alt="Bowler cluster" width="400"/>
+</p>
+
 
 ### Result
 The linear regression model predicted the top players for a match with an average accuracy of 80%, while the K-means clustering approach had an error margin ranging from 27% to 36%, depending on the match.
